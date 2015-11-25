@@ -1,0 +1,20 @@
+@mixin babybear($width) {
+    
+    @media all and (min-width:701px) and (max-width:$width){
+        @content;   
+    }
+}
+
+@mixin mamabear($width) {
+    
+    @media all and (min-width:901px) and (max-width:$width){
+        @content;
+    }
+}
+
+@mixin papabear($width) {
+    
+    @media all and (min-width:$width){
+        @content;
+    }
+}
