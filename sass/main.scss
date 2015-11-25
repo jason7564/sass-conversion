@@ -45,7 +45,7 @@ ul{
 }
 
 .row{
-    clear: both;
+    @extend .clearfix;
 }
 /*/DEFAULTS*/
 
